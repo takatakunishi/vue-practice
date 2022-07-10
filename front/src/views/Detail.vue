@@ -3,8 +3,8 @@
     <template v-if="detailItem">
       <div>
         <h2>
-          <p>タイトル</p>
-          <p>{{detailItem.todo}}</p>
+          <p class="h-24 p-3 flex items-center text-2xl font-bold text-red-600">タイトル</p>
+          <p >{{detailItem.todo}}</p>
         </h2>
       </div>
     </template>

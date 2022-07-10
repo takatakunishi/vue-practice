@@ -1,4 +1,7 @@
 <template>
+  <p class="text-3xl font-bold underline">
+    Hello world!
+  </p>
   <!-- <img alt="Vue logo" src="./assets/logo.png" />
   <TodoList /> -->
   <router-view />
@@ -16,6 +19,9 @@ export default {
 </script>
 
 <style>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
